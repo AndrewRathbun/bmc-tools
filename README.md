@@ -1,5 +1,13 @@
 # BMC-Tools
-RDP Bitmap Cache parser.
+
+This repo is an updated fork of RDP Bitmap Cache parser. This fork merges the following outstanding Pull Requests from the original repo:
+
+* https://github.com/ANSSI-FR/bmc-tools/pull/17
+* https://github.com/ANSSI-FR/bmc-tools/pull/16
+* https://github.com/ANSSI-FR/bmc-tools/pull/15
+
+So far, nothing further has been added to this tool beyond these PRs being merged.
+
 ## Input
 `bmc-tools` processes `bcache*.bmc` and `cache????.bin` files found inside Windows user profiles.
 ## Usage
@@ -19,6 +27,7 @@ With the following arguments meaning:
 ```
 ## Changelog
 ```
+30/05/2024    TBD   3 outstanding PRs merged
 02/03/2023		3.02	Added destination folder existence check beforehand.
 01/03/2023		3.01	Fixed old Bitmaps storage and export.
 10/02/2022		3.00	Now performing tile decompression.
