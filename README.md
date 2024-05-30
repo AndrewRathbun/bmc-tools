@@ -27,7 +27,7 @@ With the following arguments meaning:
 ```
 ## Changelog
 ```
-30/05/2024    TBD   3 outstanding PRs merged
+30/05/2024		TBD	3 outstanding PRs merged
 02/03/2023		3.02	Added destination folder existence check beforehand.
 01/03/2023		3.01	Fixed old Bitmaps storage and export.
 10/02/2022		3.00	Now performing tile decompression.
